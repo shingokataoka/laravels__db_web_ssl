@@ -1,4 +1,4 @@
 .DS_Store
 /docker/ssl/https_portal/*
-!/docker/ssl/https_portal
+!/docker/ssl/https_portal/.gitkeep
 /envs
