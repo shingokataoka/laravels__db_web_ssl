@@ -46,6 +46,8 @@ services:
     restart: always
     env_file:
       - ./envs/ssl/.env # 「SSL化URL -> nginx:ポート番号」の設定
+    environment:
+        CLIENT_MAX_BODY_SIZE: '0'
     volumes:
       - ./docker/ssl/https_portal:/var/lib/https-portal
 
