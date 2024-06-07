@@ -32,6 +32,7 @@ services:
       - ./../ucrm/app/:/app/ucrm
       - ./../sk_marche/app/:/app/sk_marche
       - ./../index/app/:/app/index
+      - ./../english_memoc/app/:/app/english_memoc
       - ./docker/web/default.conf:/etc/nginx/conf.d/default.conf
 
   # 上記webサービスでのURLをSSL化
