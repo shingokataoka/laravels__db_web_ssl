@@ -19,12 +19,6 @@ services:
     build:
       context: .
       dockerfile: ./docker/web/Dockerfile
-    # ports:
-      # - "81:81" # app1 のポート。nginxのdefault.confで設定している
-      # - "82:82" # hoge のポート。nginxのdefault.confで設定している
-    # depends_on:
-      # - app1
-      # - hoge
     restart: always
     volumes:
       # - ./../alpen/app/:/app/alpen
